@@ -1,0 +1,13 @@
+.bg_image{
+    background-image: url(../../Assets/Images/body.png);
+    height: 150vh;
+
+}
+
+.cardWrapper{
+    display: flex;
+    margin-top: -12%;
+    
+    overflow-x: auto;
+
+}

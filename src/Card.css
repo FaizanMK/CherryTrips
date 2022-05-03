@@ -1,0 +1,29 @@
+.card{
+    position: relative;
+    /* background-color: black; */
+    width: 320px;
+    height: 400px;
+    margin: 20px;
+}
+
+.image_container{
+    /* position: absolute; */
+    width: 320px;
+    height: 400px;
+    
+}
+
+.image_container>img{
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.image_container h3{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: white;
+    
+}

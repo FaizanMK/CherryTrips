@@ -1,0 +1,8 @@
+.Buttons{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly; 
+    position: absolute;
+    left: 60%;
+
+}
