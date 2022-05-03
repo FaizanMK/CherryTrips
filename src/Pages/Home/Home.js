@@ -1,5 +1,4 @@
 import React from 'react'
-// import Header from '../../Components/Header/Header'
 import Body from '../../Body'
 import Card from '../../Card'
 import Header from '../../Components/Header/Header'
@@ -9,9 +8,13 @@ import Planning from '../../Components/Planning/Planning'
 import './Home.css'
 import booking from '../../Assets/Images/booking.png'
 import Sightseeing from '../../Assets/Images/Sightseeing.png'
+import Adventure from '../../Assets/Images/Adventure.png'
 import Wildlife from '../../Assets/Images/Wildlife.png'
-
 import '../../Components/Info/PicInfo.css'
+import Weekends from '../../Components/Weekends'
+import Toursintro from '../../Components/Tours/Toursintro'
+import TourCard from '../../Components/Tours/TourCard'
+import TourCardPic from '../../Assets/Images/Tourcard.png'
 
 
 function Home() { 
@@ -51,26 +54,67 @@ function Home() {
     
 
       <PicInfo img={booking}
-      title='booking'
+      title='Booking System'
       information='write something here'
       />
 
       <PicInfo img={Sightseeing}
-      title='booking'
+      title='Sightseeing'
       information='write something here'
       />
       
-      <PicInfo img={booking}
-      title='booking'
+      <PicInfo img={Adventure}
+      title='Adventure'
       information='write something here'
       />
       <PicInfo img={Wildlife}
-      title='booking'
+      title='Wildlife'
       information='write something here'
       />
       
 
        </div>
+
+
+      <Weekends/>
+      <Toursintro/>
+        
+        <div className='Tourcard_wrapper'>
+        <TourCard 
+        imgUrl={TourCardPic}
+        title='Gilgit Tour'
+        price='$100' 
+        />
+
+  <TourCard 
+        imgUrl={TourCardPic}
+        title='Gilgit Tour'
+        price='$100' 
+        />
+        <TourCard 
+        imgUrl={TourCardPic}
+        title='Gilgit Tour'
+        price='$100' 
+        />
+        <TourCard 
+        imgUrl={TourCardPic}
+        title='Gilgit Tour'
+        price='$100' 
+        />
+        
+        <TourCard 
+        imgUrl={TourCardPic}
+        title='Gilgit Tour'
+        price='$100' 
+        />
+        
+        <TourCard 
+        imgUrl={TourCardPic}
+        title='Gilgit Tour'
+        price='$100' 
+        />
+        </div>
+
 
       </>
 

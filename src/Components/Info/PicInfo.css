@@ -1,5 +1,9 @@
 .PicInfo{
     display: flex;
     justify-content: center;
+}
+
+.information{
     text-align: center;
+    margin: 10%;    
 }

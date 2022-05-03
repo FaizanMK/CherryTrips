@@ -1,0 +1,18 @@
+.weekends_bg{
+    /* when parent div is empty then we have to give height to the div's class */
+    background-image: url(../Assets/Images/Weekends.png);
+    height: 160vh;
+}
+.Weekends{
+    text-align: left;
+    margin-left: 10%;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-top: 8%;
+    
+}
+
+.weekends_text{
+    font-size:large;
+    font-size: 30px;
+}

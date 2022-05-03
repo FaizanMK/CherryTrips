@@ -11,3 +11,8 @@
     overflow-x: auto;
 
 }
+
+.Tourcard_wrapper{
+display: flex;
+overflow-x: auto ;
+}
