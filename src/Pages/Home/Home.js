@@ -15,6 +15,8 @@ import Weekends from '../../Components/Weekends'
 import Toursintro from '../../Components/Tours/Toursintro'
 import TourCard from '../../Components/Tours/TourCard'
 import TourCardPic from '../../Assets/Images/Tourcard.png'
+import Abvfooter from '../../Components/Footer/Abvfooter'
+import Footer from '../../Components/Footer/Footer'
 
 
 function Home() { 
@@ -115,6 +117,9 @@ function Home() {
         />
         </div>
 
+        <Abvfooter/>
+        
+        <Footer/>
 
       </>
 

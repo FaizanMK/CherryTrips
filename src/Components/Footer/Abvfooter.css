@@ -1,0 +1,20 @@
+.parent{
+    display: flex;
+}
+
+.suitcase{
+    width: 50%;
+    background-color: yellow ;
+}
+
+.info{
+    width: 50%;
+    background-color: black ;
+    color: #FFFFFF;
+}
+
+.cherry{
+    margin: 10%;
+    color: #FFFFFF;
+    font-size: larger;
+}

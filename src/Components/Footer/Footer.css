@@ -1,0 +1,56 @@
+
+.footer__gparent{
+    background-color: black;
+    margin: 2%;
+
+}
+.footer_parent{
+/* background-color: black; */
+color: #FFFFFF;
+height: 350px;
+/* width: 100%; */
+display: flex;
+margin: 2%;
+width: 100%;
+justify-content: space-evenly;
+}
+
+.logo{
+    color: #FFFFFF;
+    width: 30%;
+    margin: 2%;
+}
+
+.home{
+    width: 30%;
+    margin: 2%;
+}
+
+.contact{
+    margin: 2%;
+}
+
+.feed{
+    margin: 2%;
+}
+.insta_feed{
+    display: flex;
+    
+}
+.insta_feed2{
+    display: flex;
+    
+
+}
+
+.line{
+    height: 1%;
+    width: 100%;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.rights{
+    color: lightgray;
+
+}
