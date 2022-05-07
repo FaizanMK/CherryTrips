@@ -3,7 +3,7 @@ import React from 'react'
 function Cart() {
   return (
     <div>
-<a href="">CART</a>
+      <h1>Cart</h1>
     </div>
   )
 }

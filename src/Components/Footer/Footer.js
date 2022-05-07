@@ -5,7 +5,7 @@ import instagram from '../../Assets/Images/instagram.png'
 function Footer() {
   return (
 
-    <div style={{display:'flex', flexDirection:'column', backgroundColor: 'black', paddingBottom:'2px', margin: '5%'  }} >
+    <div style={{display:'flex', flexDirection:'column', backgroundColor: 'black', paddingBottom:'2px', marginTop: '5%'  }} >
     <div className='footer_parent'>
     
     <div className='logo'>
@@ -36,7 +36,7 @@ function Footer() {
    
     </div>
 
-    <div className='insta_feed2'>
+    <div className='insta_feed'>
     <img src={instagram} alt="" />
     <img src={instagram} alt="" />
     <img src={instagram} alt="" />

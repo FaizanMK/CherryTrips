@@ -10,9 +10,10 @@ color: #FFFFFF;
 height: 350px;
 /* width: 100%; */
 display: flex;
-margin: 2%;
+/* margin: 2%; */
 width: 100%;
 justify-content: space-evenly;
+
 }
 
 .logo{
@@ -37,10 +38,8 @@ justify-content: space-evenly;
     display: flex;
     
 }
-.insta_feed2{
-    display: flex;
-    
-
+.insta_feed img{
+    margin: 5px;
 }
 
 .line{

@@ -12,7 +12,35 @@
 
 }
 
+.PicInfo{
+  display: flex;
+  align-items: center;
+}
+
 .Tourcard_wrapper{
 display: flex;
 overflow-x: auto ;
 }
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.cardWrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .cardWrapper {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.Tourcard_wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .Tourcard_wrapper {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

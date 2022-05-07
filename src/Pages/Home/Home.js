@@ -17,16 +17,17 @@ import TourCard from '../../Components/Tours/TourCard'
 import TourCardPic from '../../Assets/Images/Tourcard.png'
 import Abvfooter from '../../Components/Footer/Abvfooter'
 import Footer from '../../Components/Footer/Footer'
+import TopHeader from '../../Components/Header/TopHeader'
 
 
-function Home() { 
+function Home({startDate, setStartDate, endDate, setEndDate}) { 
   return (
     <>
     <div className='bg_image'>
-
+    <TopHeader/>
     <Header/>  
     <Body/>
-    <Planning/>
+    <Planning startDate={startDate} setStartDate={setStartDate} endDate={endDate} setEndDate={setEndDate} />
     </div>
     
 

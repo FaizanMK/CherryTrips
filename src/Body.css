@@ -1,3 +1,15 @@
+@import url(https://allfont.net/allfont.css?fonts=yeseva-one);
+
 .Body{
     padding:15%;
+    font-family: Yeseva One;
+    color: #FFFFFF;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: 400; */
+    /* line-height: 83px; */
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+
 }

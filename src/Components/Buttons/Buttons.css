@@ -1,8 +1,11 @@
+
 .Buttons{
     width: 30%;
     display: flex;
     justify-content: space-evenly; 
     position: absolute;
-    left: 60%;
-
+    left: 70%;
+    font-family: 'Metropolis';
+    color: #FFFFFF;
+    
 }
