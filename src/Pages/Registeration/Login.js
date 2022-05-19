@@ -1,5 +1,5 @@
 import "./Login.css";
-import { Navigate, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 function Login() {
 
@@ -12,9 +12,7 @@ function Login() {
     const container = document.querySelector(".container");
     container.classList.remove("sign-up-mode");
   };
-  const handleLogout = () => {
   
-  };
   const handleLogin = (e) => {
     
   };
@@ -45,6 +43,8 @@ function Login() {
                     placeholder="Email"
                   />
                 </div>
+                
+
                 <div className="input-field">
                   <i className="fas fa-lock"></i>
                   <input
@@ -65,7 +65,20 @@ function Login() {
               {/* sign up form */}
               <form action="#" className="sign-up-form">
                 <h2 className="title">Sign up</h2>
+                
+                
                 <div className="input-field">
+                  <i className="fas fa-envelope"></i>
+                  <input
+                    type="text"
+                    // value={address}
+                    // onChange={(e) => setAddress(e.target.value)}
+                    placeholder="username"
+                  />
+                </div>
+
+                <div className="input-field">
+                  
                   <i className="fas fa-envelope"></i>
                   <input
                     type="email"
@@ -74,6 +87,7 @@ function Login() {
                     placeholder="Email"
                   />
                 </div>
+
 
 
 
@@ -88,44 +102,15 @@ function Login() {
                 </div>
 
                 <div className="input-field">
-                  <i className="fas fa-envelope"></i>
+                  <i className="fas fa-lock"></i>
                   <input
-                    type="text"
-                    // value={cnic}
-                    // onChange={(e) => setCnic(e.target.value)}
-                    placeholder="CNIC"
+                    type="password"
+                    // value={password}
+                    // onChange={(e) => setPassword(e.target.value)}
+                    placeholder="Confirm Password"
                   />
                 </div>
-
-                <div className="input-field">
-                  <i className="fas fa-envelope"></i>
-                  <input
-                    type="number"
-                    // value={contact}
-                    // onChange={(e) => setContact(e.target.value)}
-                    placeholder="Contact"
-                  />
-                </div>
-
-                <div className="input-field">
-                  <i className="fas fa-envelope"></i>
-                  <input
-                    type="text"
-                    // value={address}
-                    // onChange={(e) => setAddress(e.target.value)}
-                    placeholder="Address"
-                  />
-                </div>
-
-                <div className="input-field">
-                  <i className="fas fa-envelope"></i>
-                  <input
-                    type="text"
-                    // value={country}
-                    // onChange={(e) => setCountry(e.target.value)}
-                    placeholder="Country"
-                  />
-                </div>
+                
 
 
                 <input

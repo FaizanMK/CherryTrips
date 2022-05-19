@@ -1,7 +1,7 @@
 import React from 'react'
 import './TourCard.css'
 
-function TourCard({imgUrl, title, price}) {
+function TourCard({imgUrl, title, price,cart}) {
   return (
     <div className='card'>
     
@@ -10,7 +10,7 @@ function TourCard({imgUrl, title, price}) {
     <img src={imgUrl} alt="" />        
     <h3>{title}</h3>
     <h2>{price}</h2>
-
+    <h2 className='tour_card' >{cart}</h2>
         
             
      </div>

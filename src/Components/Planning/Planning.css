@@ -22,6 +22,7 @@
 .dates{
     display: flex;
     justify-content: center;
+    margin: 1%;
 }
 
 .planning-bottom{
@@ -35,3 +36,4 @@
     padding: 10px;
     border-radius: 15px;
 }
+

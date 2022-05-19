@@ -6,13 +6,15 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import TourConfirmation from './Pages/Destination/TourConfirmation';
+// import TourConfirmation from './Pages/TourConfirmation/TourConfirmation';
 import Destination from './Pages/Destination/Destination';
 import Tours from './Pages/Tours/Tours';
 import Contact from './Pages/Contact/Contact';
 import Cart from './Pages/Cart/Cart';
 import { useState } from 'react';
 import Login from './Pages/Registeration/Login';
+import TourConfirmation from './Pages/TourConfirmation/TourConfirmation';
+import ToPayment from './Pages/ProceedToPayment/ToPayment';
 
 function App() {
 const [startDate, setStartDate]= useState('')
@@ -30,7 +32,7 @@ const [endDate, setEndDate]= useState('')
     <Route path='/Contact' element={<Contact/>} />
     <Route path='/Cart' element={<Cart/>} />
     <Route path='/Login' element={<Login/>} />
-
+    <Route path='/ToPayment' element={<ToPayment/>} />
 
     
     </Routes>

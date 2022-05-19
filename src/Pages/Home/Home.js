@@ -18,6 +18,8 @@ import TourCardPic from '../../Assets/Images/Tourcard.png'
 import Abvfooter from '../../Components/Footer/Abvfooter'
 import Footer from '../../Components/Footer/Footer'
 import TopHeader from '../../Components/Header/TopHeader'
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+
 
 
 function Home({startDate, setStartDate, endDate, setEndDate}) { 
@@ -87,6 +89,8 @@ function Home({startDate, setStartDate, endDate, setEndDate}) {
         imgUrl={TourCardPic}
         title='Gilgit Tour'
         price='$100' 
+        cart={<ShoppingCartOutlinedIcon/> }
+      
         />
 
   <TourCard 

@@ -1,0 +1,30 @@
+.bg{
+background-color: lightgray;
+border: 1px solid red;
+width: 50%;
+height: 400px;
+margin-left: 50%;
+margin-top: 20%;
+
+}
+
+.confirm_Card{
+    background-color: #FFFFFF;
+    border: 1px solid lightgray;
+    width: 80%;
+    margin-left: 15%;
+    margin-top: 6%;
+}
+
+.next_confirmbtn{
+        margin-top: 5%;
+        background-color: #D83324;
+        color: white;
+        size: 18px;
+        padding: 20px;
+        border-radius: 5px;
+        height: 50px;
+        width: 161px;
+        
+    
+}
